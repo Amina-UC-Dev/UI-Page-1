@@ -1,4 +1,5 @@
 import 'package:ardhra_chechi_ui/page1.dart';
+import 'package:ardhra_chechi_ui/page2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       debugShowCheckedModeBanner: false,
-      home: PageOne(),
+      home: pageTwo(),
     );
   }
 }

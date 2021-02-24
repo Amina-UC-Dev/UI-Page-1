@@ -39,7 +39,6 @@ class _PgeThreeState extends State<PgeThree> {
                 physics: NeverScrollableScrollPhysics(),
                   itemCount: contactList.length,
                   itemBuilder: (context,index){
-                    print("kllllllllllllllll "+contactList.length.toString());
                 return Padding(
                   padding: const EdgeInsets.all(15.0),
                   child: Container(
